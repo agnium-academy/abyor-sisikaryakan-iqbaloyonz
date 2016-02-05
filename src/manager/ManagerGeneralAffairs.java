@@ -11,5 +11,19 @@ package manager;
  * @author User
  */
 public class ManagerGeneralAffairs {
+    String name;
+    
+    public ManagerGeneralAffairs(String nama){
+        this.name = nama;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
     
 }
