@@ -18,12 +18,4 @@ public class ManagerDrilling extends CategoryPosition{
         super(id, name, position);
     }
     
-    
-    public void getNip(String nama){
-        this.nama = nama;
-    }
-    
-    public String setNama(){
-        return nama;
-    }
 }

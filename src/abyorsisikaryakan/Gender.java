@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package manager;
+package abyorsisikaryakan;
 
 /**
  *
  * @author User
  */
-public class Employee {
-    
+public enum Gender {
+    MALE, FEMALE
 }

@@ -10,6 +10,11 @@ package manager;
  *
  * @author User
  */
-public class ManagerRefinery {
+public class ManagerRefinery extends CategoryPosition{
+
+    public ManagerRefinery(String id, String name, String position) {
+        super(id, name, position);
+    }
+    
     
 }

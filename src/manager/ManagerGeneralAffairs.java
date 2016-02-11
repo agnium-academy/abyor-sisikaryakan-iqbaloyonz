@@ -10,20 +10,14 @@ package manager;
  *
  * @author User
  */
-public class ManagerGeneralAffairs {
+public class ManagerGeneralAffairs extends CategoryPosition{
     String name;
     
-    public ManagerGeneralAffairs(String nama){
-        this.name = nama;
+    public ManagerGeneralAffairs(String id, String name, String position ){
+        super(id, name, position);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    
     
     
 }
